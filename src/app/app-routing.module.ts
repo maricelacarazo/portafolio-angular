@@ -7,7 +7,7 @@ import { ItemComponent } from './pages/item/item.component';
 const app_routes: Routes = [
   {path: 'home', component: PortafolioComponent},  //Cuando la ruta sea http://localhost:4200
   {path: 'about', component: AboutComponent},
-  {path: 'item', component: ItemComponent},
+  {path: 'item/:id', component: ItemComponent},
   {path: '**', pathMatch:'full', redirectTo: 'home'}  //Cualquier ruta que no sea una de las definidas
 ];
 
