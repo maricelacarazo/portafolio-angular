@@ -2164,3 +2164,8 @@ body {
 .rk-light-color {
   color: #787878;
 }
+
+.contenedor1{
+  max-width: fit-content;
+  width: 95vw;
+}
